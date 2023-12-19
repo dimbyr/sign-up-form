@@ -1,0 +1,22 @@
+body {
+    background-color: #000;
+    color: #aaa;
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    gap: 5rem;
+}
+
+.leftside {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    /* align-items: center; */
+    /* background-image: -moz-element(); */
+    width: 35%;
+}
+
+img {
+    width: 10vh;
+    height: 15vh;
+}
