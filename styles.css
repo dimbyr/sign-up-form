@@ -1,8 +1,11 @@
 body {
-    background-color: #000;
+   background-image: url('bgd.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
     color: #aaa;
     display: flex;
-    width: 40rem;
+    width: 80vw;
+    height: 100vh;
     margin: auto;
     gap: 5rem;
 }
@@ -11,9 +14,22 @@ body {
     display: flex;
     align-items: center;
     margin: auto;
-    /* align-items: center; */
-    /* background-image: -moz-element(); */
     width: 35%;
+    background-color: #333;
+    width: 100%;
+}
+
+
+.rightside {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 20vh;
+    padding-left: 2rem;
+    padding-right: auto;
+    margin: auto;
+    background-color: #fff;
+    text-align: left;
 }
 
 img {
