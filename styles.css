@@ -4,19 +4,23 @@ body {
    background-size: cover;
     color: #aaa;
     display: flex;
-    width: 80vw;
-    height: 100vh;
-    margin: auto;
-    gap: 5rem;
+   justify-content: center;
+   align-items: center;
+    /* width: 80vw;
+    height: 100vh; */
+    /* margin: 0 auto; */
+    /* gap: 5rem; */
 }
 
 .leftside {
     display: flex;
     align-items: center;
-    margin: auto;
-    width: 35%;
+    margin: 0;
+    padding: 2rem;
+    height: 10vh;
+    /* width: 25vw; */
     background-color: #333;
-    width: 100%;
+    /* width: auto; */
 }
 
 
@@ -24,20 +28,24 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    padding-top: 20vh;
+    /* padding-top: 20vh;
     padding-left: 2rem;
-    padding-right: auto;
-    margin: auto;
+    padding-right: 2rem;
+    margin: auto; */
     background-color: #fff;
     text-align: left;
 }
 
 img {
-    width: 10vh;
-    height: 15vh;
+   height: 10vh;
 }
 
 .names,.contacts,.passwords {
     display: flex;
     flex-direction: row;
 }
+
+/* form {
+    padding: 20vh 5vh;
+    height: inherit;
+} */
