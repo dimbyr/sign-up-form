@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign-up form</title>
-    <link rel="stylesheet" href="styles.css"></link>
-    <script src="scripts.js"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign-up form</title>
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
 
 <body>
     <div class="leftside">
@@ -57,13 +57,13 @@
                     <div class="password">
                         <label for="password">Password</label>
                         <br/>
-                        <input type="password" id="password" name="password"> </input>
+                        <input type="password" id="password" name="password" placeholder="Enter password"> </input>
                     </div>
                     <br/>
                     <div class="password">
                         <label for="confirm-password">Confirm password</label>
                         <br/>
-                        <input type="password" id="confirm-password" name="confirm-password">
+                        <input type="password" id="confirm-password" name="confirm-password" pattern="pwd" placeholder="Re-enter password">
                     </div> </input>
                 </div>
             </div>
@@ -75,5 +75,6 @@
         </div>
         </form>
     </div>
+    <script src="scripts.js"></script>
 </body>
 </html>
