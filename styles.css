@@ -10,7 +10,7 @@ button, input, select, textarea {
 }
 
 body {
-   background-image: url('bgd.jpg');
+   background-image: url('img/bgd.jpg');
    background-repeat: no-repeat;
    background-size: cover; 
    background-color: #000;
@@ -26,6 +26,7 @@ body {
     justify-content: center;
     align-items: center;
     padding-left: 5rem;
+    width: 50rem;
 }
 
 textarea, input {
@@ -41,14 +42,14 @@ textarea {
     display: flex;
     align-items: center;
     margin: 0;
-    padding: 4rem;
-    height: 10vh;
+    padding: 10rem;
+    height: 20vh;
     background-color: transparent;
     background-image: radial-gradient(#444 5%, #555 15%, transparent 60%);
 } 
 
 img {
-   height: 15vh;
+   height: 20vh;
 }
 
 .names,.contacts,.passwords {
@@ -80,11 +81,17 @@ button {
 
 @font-face {
     font-family: odinfont;
-    src: url(Norse-Bold.otf);
+    src: url(fonts/Norse-Bold.otf);
   }
 
 .odin-text {
     font-family: odinfont;
     color: #aaa;
     font-size: 10rex;
+}
+
+.header-text {
+    /* width: 50rem; */
+    font-size: 1.5rem;
+    font-weight: bold;
 }
