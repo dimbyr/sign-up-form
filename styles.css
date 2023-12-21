@@ -1,51 +1,90 @@
+html, button, input, select, textarea {
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    color: #aaa;
+}
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    max-width: 100%;
+    vertical-align: baseline;
+}
+
 body {
    background-image: url('bgd.jpg');
    background-repeat: no-repeat;
-   background-size: cover;
-    color: #aaa;
+   background-size: cover; 
+   background-color: #000;
+    color: #222;
     display: flex;
    justify-content: center;
    align-items: center;
-    /* width: 80vw;
-    height: 100vh; */
-    /* margin: 0 auto; */
-    /* gap: 5rem; */
+}
+
+.rightside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5rem;
+}
+
+textarea, input {
+    outline: none;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
 }
 
 .leftside {
     display: flex;
     align-items: center;
     margin: 0;
-    padding: 2rem;
+    padding: 4rem;
     height: 10vh;
-    /* width: 25vw; */
-    background-color: #333;
-    /* width: auto; */
-}
-
-
-.rightside {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    /* padding-top: 20vh;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    margin: auto; */
-    background-color: #fff;
-    text-align: left;
-}
+    background-color: transparent;
+    background-image: radial-gradient(#444 5%, #555 15%, transparent 60%);
+} 
 
 img {
-   height: 10vh;
+   height: 15vh;
 }
 
 .names,.contacts,.passwords {
     display: flex;
     flex-direction: row;
+} 
+
+input {
+    border: 1px solid #000;
+    padding: 1rex;
+    margin: 1rem;
 }
 
-/* form {
-    padding: 20vh 5vh;
-    height: inherit;
-} */
+.createaccount {
+    font-size: large;
+    color: #596D48;
+    padding: 2rex;
+
+}
+
+button {
+    font-size: large;
+    background-color: #596D48;
+    padding: 1rex;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+
+@font-face {
+    font-family: odinfont;
+    src: url(Norse-Bold.otf);
+  }
+
+.odin-text {
+    font-family: odinfont;
+    color: #aaa;
+    font-size: 10rex;
+}
